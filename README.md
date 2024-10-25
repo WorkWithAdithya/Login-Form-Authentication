@@ -29,5 +29,9 @@ npm install
 npm run dev
 ```
 ## Result and Snapshots
+<h1>Login Page</h1>
+<img src=https://github.com/WorkWithAdithya/Login-Form-Authentication/blob/main/Images/Login%20Page.png  width="1000" height="800">
+<h1>Signup Page</h1>
+<img src=https://github.com/WorkWithAdithya/Login-Form-Authentication/blob/main/Images/Signup%20Page.png  width="1000" height="800">
 
 
