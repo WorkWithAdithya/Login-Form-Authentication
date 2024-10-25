@@ -33,7 +33,8 @@ npm run dev
 <img src=https://github.com/WorkWithAdithya/Login-Form-Authentication/blob/main/Images/Login%20Page.png  width="1000" height="600">
 <h1>Signup Page</h1>
 <img src=https://github.com/WorkWithAdithya/Login-Form-Authentication/blob/main/Images/Signup%20Page.png  width="1000" height="600">
-
+<h1>Firebase DashBoard</h1>
+<img src=  https://github.com/WorkWithAdithya/Login-Form-Authentication/blob/main/Images/Firebase%20Dashboard.png  width="1000" height="600">
 <h1>Feel free to contact me!</h1>
 <p>Name : Adithya BS</p>
 <p>Email : workwithadithya01@gmail.com</p>
