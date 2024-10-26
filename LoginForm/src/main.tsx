@@ -16,14 +16,15 @@ import {
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
 
+//Copy all the below information from firebase
 const firebaseConfig = {
-  apiKey: 'AIzaSyCRUH68axTPJOzm-h1wTUQ0gYtm4vzyYT8',
-  authDomain: 'authentication-1584f.firebaseapp.com',
-  projectId: 'authentication-1584f',
-  storageBucket: 'authentication-1584f.appspot.com',
-  messagingSenderId: '643370515265',
-  appId: '1:643370515265:web:e77c5a4718b06df0eb3fc0',
-  measurementId: 'G-4SZ4W98J9C',
+  apiKey: 'ENTER YOUR API KEY',
+  authDomain: 'ENTER AUTHENTICATION DONAIN',
+  projectId: 'PROJECT ID',
+  storageBucket: 'STORAGE BUCKET ID',
+  messagingSenderId: 'MESSAGE SENDER ID',
+  appId: 'YOUR APP ID',
+  measurementId: 'MEASURMENT ID',
 };
 
 initializeApp(firebaseConfig);
