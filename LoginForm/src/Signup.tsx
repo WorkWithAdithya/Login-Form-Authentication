@@ -12,9 +12,8 @@ const Signup = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
 
-  // Function to handle sign-up with email and password
   const signUpWithEmail = async () => {
-    // Check if passwords match
+
     if (password !== confirmPassword) {
       setError('Passwords do not match');
       return;
@@ -23,7 +22,7 @@ const Signup = () => {
     setAuthing(true);
     setError('');
 
-    // Use Firebase to create a new user with email and password
+
     createUserWithEmailAndPassword(auth, email, password)
       .then((response) => {
         console.log(response.user.uid);
