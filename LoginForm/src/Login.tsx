@@ -18,7 +18,7 @@ const Login = () => {
     setAuthing(true);
     setError('');
 
-    // Use Firebase to sign in with email and password
+
     signInWithEmailAndPassword(auth, email, password)
       .then((response) => {
         console.log(response.user.uid);
@@ -35,7 +35,7 @@ const Login = () => {
     <div className="w-full h-screen flex flex-wrap">
       <div className="w-full h-full bg-black flex flex-col p-20 justify-center">
         <div className="w-full flex flex-col max-w-[450px] mx-auto">
-          {/* Header section with title and welcome message */}
+       
           <div className="w-full flex flex-col mb-10 text-white">
             <h3 className="text-4xl font-bold mb-2 text-center">Login</h3>
             <p className="text-lg mb-4 text-center">
@@ -43,7 +43,7 @@ const Login = () => {
             </p>
           </div>
 
-          {/* Input fields for email and password */}
+       
           <div className="w-full flex flex-col mb-6">
             <input
               type="email"
@@ -75,7 +75,7 @@ const Login = () => {
           {error && <div className="text-red-500 mb-4">{error}</div>}
         </div>
 
-        {/* Link to sign up page */}
+
         <div className="w-full flex items-center justify-center mt-10">
           <p className="text-sm font-normal text-gray-400">
             Don't have an account?{' '}
